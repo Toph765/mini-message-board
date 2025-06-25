@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Mini Message Board</title>
+</head>
+<body>
+    <main>
+        <a href="/new" class="newMsgLink">New Message</a>
+        <div class="container">
+            <% for (let i = 0; i < messages.length; i++) { %>
+                <div class="card">
+                    <div class="cardDetails">
+                        <h3><%= messages[i].user %></h3>
+                        <span><%= messages[i].added %></span>
+                        <p><%= messages[i].text %></p>
+                    </div>
+                    <a href="/details/<%= messages[i].id%>" class="detailsLink">Details</a>
+                </div>
+            <% } %>
+        </div>
+    </main>
+</body>
+</html>

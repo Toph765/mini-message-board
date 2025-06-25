@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Mini Message Board</title>
+</head>
+<body>
+    <div class="detailsContainer">
+        <div class="detailsCard">
+            <h3><%= message.user %></h3>
+            <p>id: <%= message.id %></p>
+            <span><%= message.added %></span>
+            <p><%= message.text %></p>
+        </div>
+        <a href="/" class="indexLink">Go back</a>
+    </div>
+</body>
+</html>

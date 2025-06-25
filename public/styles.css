@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 1.2rem;
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.newMsgLink{
+    padding: 1.2rem;
+    border: 2px solid black;
+}
+
+.detailsLink,
+.indexLink {
+    border: 2px solid black;
+    padding: 0.2rem;
+    margin-top: 0.8rem;
+}
+
+.newMsgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+    gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: 2px solid black;
+    padding: 0.4rem;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.detailsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+    gap: 0.8rem;
+}
+
+.detailsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    border: 2px solid black;
+    padding: 1.2rem;
+}
